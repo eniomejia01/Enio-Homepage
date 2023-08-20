@@ -556,7 +556,7 @@ body{
     
     .navegacion {
         display: flex;
-        gap: 5rem;
+        gap: 1rem;
     }
     
     .navegacion a{
@@ -567,23 +567,22 @@ body{
     }
 
     .fragment{
-        margin-left: 10rem;
+        margin-left: 5rem;
     }
 
     .fragment-1{
-        margin-left: 10rem;
+        margin-left: 5rem;
     }
 
     .seccion-1 h2{
-        margin: 0 auto 0 0;
-
+        margin-left: -4rem;
     }
 
-    .tarjetas{
-        /* display: grid;
-        grid-template-columns: repeat(2, 1fr); */
+    /* .tarjetas{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
 
-    }
+    } */
 
     .images img{
         width: 100%;
@@ -597,7 +596,6 @@ body{
 
 
 }
-
 
 
 @media (min-width: 768px) {  
@@ -705,7 +703,7 @@ body{
         height: 10rem;
         font-size: 36px;
         font-weight: 500;
-        margin-left: 2rem;
+        margin-left: -30rem;
     }
 
     .content p{
@@ -713,6 +711,11 @@ body{
         font-weight: 400;
         font-size: 16px;
         color: #4F4F4F;
+    }
+
+    .tarjetas{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
     
     /* SECTION 2 */
@@ -872,6 +875,10 @@ body{
     .tarjetas{
         column-gap: 18rem;
     }
+
+    .navegacion{
+        gap: 5rem;
+    }
 }
 
 @media (min-width: 992px) {  
@@ -897,6 +904,7 @@ body{
     .tarjetas{
         display: flex;
         flex-direction: row;
+        column-gap: 2rem;
     }
 }
 
@@ -914,7 +922,8 @@ body{
 
 @media (min-width: 1280px) {  
     .seccion-1 h2{
-        margin-left: 7.5rem;
+        /* margin-left: 7.5rem; */
+        margin-left: -65rem;
     }
 
     .seccion-2 h3{
@@ -928,7 +937,7 @@ body{
 
 @media (min-width: 1320px) {  
     .seccion-1 h2{
-        margin-left: 10.5rem;
+        margin-left: -65rem;
     }
 
     .seccion-2 h3{
